@@ -17748,10 +17748,10 @@ cr.behaviors.Sin = function(runtime)
 	behaviorProto.exps = new Exps();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Particles,
 	cr.plugins_.Mouse,
-	cr.plugins_.TiledBg,
+	cr.plugins_.Particles,
 	cr.plugins_.Sprite,
+	cr.plugins_.TiledBg,
 	cr.behaviors.Sin,
 	cr.system_object.prototype.cnds.EveryTick,
 	cr.plugins_.Sprite.prototype.acts.SetMirrored,
